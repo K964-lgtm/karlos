@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html lang="en">
+ <head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Gallery</title>
+ <link rel="stylesheet" href="gallery.css">
+ <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js">
+
+ </script> 
+ </head> 
+ <body>
+     <nav>
+         <div class="nav__content">
+             <div class="logo">
+                <a href="#">Cabrera</a>
+            </div> <label for="check" class="checkbox"> 
+                <i class="ri-menu-line"></i>
+             </label>
+              <input type="checkbox" name="check" id="check">
+               <ul> 
+                <li><a href="index.html">Log Out</a></li>
+                 <li><a href="homi.html">Home</a></li> 
+                 <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="avout.html">About</a></li>
+                 </ul>
+                 </div>
+                 </nav>
+                  <div class="smooth-scroll-wrapper">
+                     <div class="content"> 
+                        <div class="container">
+                             <h1 class="text"><mark>My top three favorite events</mark></h1> 
+                             <br>
+                              <h1 class="text"><mark>CHEERDANCE!!</mark></h1> 
+                              <p><mark>Cheerdance is my favorite because it was so satisfying to see a challenges</mark> </p>
+                              <div class="img">
+                                 <img src="image12.jpg" alt=""> 
+                                 <div class="container">
+                                     <h1 class="text"><mark>MLBB!!</h1> 
+                                     <p><mark>Thiss one is my favorite also because i played ml for a long time and thats its my favorite</p>
+                                     <div class="img">
+                                         <img src="image13.jpg" alt="">
+                                         </div>
+                                          <div class="container">
+                                             <h1 class="text"><MARK>BATTLE OF THE BAND!!</MARK></h1> 
+                                             <p><mark>This is my favorite because all students that perform was have a nice voice and also have a potential to be a rockstar</p>
+                                             <div class="img">
+                                                 <img src="image11.jpg" alt="">
+                                                 </div> 
+                                                </div> 
+                                                <div class="container">
+                                                     <h1 class="text"><mark >Two best images</mark></h1> 
+                                                     <br>
+                                                      <h1 class="text"><mark>MR & MS TCGC</mark></h1> 
+                                                      <div class="img"> 
+                                                        
+                                                        <img src="image14.jpg" >
+                                                    </div>
+                                                     <p class="text"><MARK><sup> MR. and MS. TCGC, my classmate are participating the MR & MS TCGC competition and they have our 100% support during that night <br> MR. QUIROS & MS. RAMOS FOR REPRESENTING THE INSTITUTE OF COMPUTER SCIENCE </sup></MARK></p> 
+                                                    </div> 
+                                                    <div class="container">
+                                                         <h1 class="text"><mark>MS.TCGC</mark></h1>
+                                                          <div class="img">
+                                                             <img src="image16.jpg" alt="">
+                                                             </div>
+                                                              <p class="text"><mark> Our MS.TCGC coming from the institute of ARTS AND SCIENCES.<br><sup>The image shows excitement, teamwork,and dedication as an lux mundis to show beauty, integrity, compassion and excellence. </sup> . .</mark> </p> 
+                                                            </div> 
+                                                        </div> 
+                                                    </div>
+                                                     <script> 
+                                                     var elements = $(".text, .img").toArray(); $(window).scroll(function() { var scrollTop = $(this).scrollTop();
+                                                      elements.forEach(function(item) { if (scrollTop >= $(item).offset().top - 400) 
+                                                      { $(item).addClass("reveal");
+
+                                                       }
+                                                        }
+                                                        ); 
+                                                        }
+                                                        );
+                                                         </script> 
+                                                         </body> 
+                                                         </html>
